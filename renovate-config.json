@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "config:recommended",
+    ":disableRateLimiting",
+    ":enableVulnerabilityAlerts",
+    ":ignoreUnstable",
+    ":pinAllExceptPeerDependencies",
+    ":semanticCommits",
+    ":separateMultipleMajorReleases",
+    "group:allNonMajor"
+  ]
+}
