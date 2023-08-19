@@ -9,6 +9,7 @@
     ":separateMultipleMajorReleases",
     "group:allNonMajor"
   ],
+  { "lockFileMaintenance": { "enabled": true } },
   "hostRules": [
     {
       "matchHost": "https://npm.pkg.github.com/",
