@@ -4,7 +4,7 @@
     ":disableRateLimiting",
     ":enableVulnerabilityAlerts",
     ":ignoreUnstable",
-    ":pinOnlyDevDependencies",
+    "replacements:all",
     ":widenPeerDependencies",
     ":semanticCommits",
     ":separateMultipleMajorReleases",
