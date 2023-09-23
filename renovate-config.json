@@ -1,17 +1,19 @@
 {
   "extends": [
-    "config:recommended",
     ":dependencyDashboard",
     ":dependencyDashboardApproval",
     ":disableRateLimiting",
     ":enableVulnerabilityAlerts",
+    ":ignoreModulesAndTests",
     ":ignoreUnstable",
     ":pinOnlyDevDependencies",
-    ":semanticCommits",
     ":separateMultipleMajorReleases",
+    "group:monorepos",
+    "group:recommended",
     "replacements:all",
-    "group:monorepos"
+    "workarounds:all"
   ],
+  "configMigration": true,
   "rangeStrategy": "update-lockfile",
   "lockFileMaintenance": { "enabled": true },
   "npmrc": "@pickles-and-beans:registry=https://npm.pkg.github.com/",
@@ -29,15 +31,18 @@
   "packageRules": [
     {
       "matchPackagePatterns": [ "dependencies" ],
+      "semanticCommits": "enabled",
       "semanticCommitType": "deps"
     },
     {
       "matchPackagePatterns": [ "devDependencies" ],
+      "semanticCommits": "enabled",
       "semanticCommitType": "deps",
       "semanticCommitScope": "dev"
     },
     {
       "matchDepTypes": [ "peerDependencies" ],
+      "semanticCommits": "enabled",
       "semanticCommitType": "deps",
       "semanticCommitScope": "peer"
     }
