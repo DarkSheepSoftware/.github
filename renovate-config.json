@@ -4,11 +4,13 @@
     ":disableRateLimiting",
     ":enableVulnerabilityAlerts",
     ":ignoreUnstable",
-    ":pinAllExceptPeerDependencies",
+    ":pinOnlyDevDependencies",
+    ":widenPeerDependencies",
     ":semanticCommits",
     ":separateMultipleMajorReleases",
     "group:allNonMajor"
   ],
+  "rangeStrategy": "update-lockfile",
   "lockFileMaintenance": { "enabled": true },
   "hostRules": [
     {
