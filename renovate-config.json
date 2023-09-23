@@ -38,8 +38,8 @@
     },
     {
       "matchDepTypes": [ "peerDependencies" ],
-      "semanticCommitType": "peer",
-      "semanticCommitScope": "deps"
+      "semanticCommitType": "deps",
+      "semanticCommitScope": "peer"
     }
   ]
 }
