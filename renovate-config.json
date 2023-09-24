@@ -30,20 +30,20 @@
   ],
   "packageRules": [
     {
-      "matchPackagePatterns": [ "dependencies" ],
+      "matchPackagePatterns": [ "*" ],
       "semanticCommits": "enabled",
       "semanticCommitType": "deps"
     },
     {
+      "matchPackagePatterns": [ "dependencies" ],
+      "semanticCommitScope": "pkg"
+    },
+    {
       "matchPackagePatterns": [ "devDependencies" ],
-      "semanticCommits": "enabled",
-      "semanticCommitType": "deps",
       "semanticCommitScope": "dev"
     },
     {
       "matchDepTypes": [ "peerDependencies" ],
-      "semanticCommits": "enabled",
-      "semanticCommitType": "deps",
       "semanticCommitScope": "peer"
     }
   ]
