@@ -35,11 +35,11 @@
       "semanticCommitType": "deps"
     },
     {
-      "matchPackagePatterns": [ "dependencies" ],
+      "matchDepTypes": [ "dependencies" ],
       "semanticCommitScope": "pkg"
     },
     {
-      "matchPackagePatterns": [ "devDependencies" ],
+      "matchDepTypes": [ "devDependencies" ],
       "semanticCommitScope": "dev"
     },
     {
