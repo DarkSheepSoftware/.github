@@ -6,7 +6,6 @@
     ":enableVulnerabilityAlerts",
     ":ignoreModulesAndTests",
     ":ignoreUnstable",
-    ":pinOnlyDevDependencies",
     ":separateMultipleMajorReleases",
     "group:monorepos",
     "group:recommended",
