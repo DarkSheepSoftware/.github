@@ -1,7 +1,5 @@
 {
   "extends": [
-    ":dependencyDashboard",
-    ":dependencyDashboardApproval",
     ":disableRateLimiting",
     ":enableVulnerabilityAlerts",
     ":ignoreModulesAndTests",
