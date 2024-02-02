@@ -11,7 +11,7 @@
     "workarounds:all"
   ],
   "configMigration": true,
-  "rangeStrategy": "update-lockfile",
+  "rangeStrategy": "auto",
   "lockFileMaintenance": { "enabled": true },
   "npmrc": "@pickles-and-beans:registry=https://npm.pkg.github.com/",
   "prBodyTemplate": "{{{table}}}{{{warnings}}}{{{notes}}}{{{changelogs}}}{{{controls}}}{{{footer}}}",
