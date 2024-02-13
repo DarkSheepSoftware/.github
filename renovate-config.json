@@ -13,18 +13,8 @@
   "configMigration": true,
   "rangeStrategy": "auto",
   "lockFileMaintenance": { "enabled": true },
-  "npmrc": "@pickles-and-beans:registry=https://npm.pkg.github.com/",
   "prBodyTemplate": "{{{table}}}{{{warnings}}}{{{notes}}}{{{changelogs}}}{{{controls}}}{{{footer}}}",
   "prBodyColumns": [ "Package", "Update", "Type", "Change" ],
-  "hostRules": [
-    {
-      "matchHost": "https://npm.pkg.github.com/",
-      "hostType": "npm",
-      "encrypted": {
-        "token": "wcFMA/xDdHCJBTolAQ/9GzDHo2YPaRXBcE95HVCnTWdO8qDL0UxUwbe8afHVCdKLXNil0VCKkndE1sT3OxQgRxAG0pK5nMmievMicOxTonSTrqYDzCo7IFm7onDzYITgsPZd7xHkN/0ttJtJxvdq8Tn+RH+us6RxxqVdwu+vlwqrLghSdX69uRTFgg71wa3PvO8BWu6Zy86F11eUBkQ9s5psb1vthn3GX/YMZK5rK3neze+WjQ/fn0hpYx6tdb26MqSmCyuO10mzxr5LNw3qyOTX5g9HZslK31gcbbJm0g6IkLsV5Jf008Ul7ZyhU5UOgLgPMkSRq/xubKvLMM4xelnv/5oqh2MaLxFNR4ogqcP2IQVBnlOB3rJOGaa/KYeC+80DM2wx7ukmiz/ZjCX323m6UkOyQbYK/SEYSEJzMYhhpI4lojm2L3716eukCr5BENDxMbG3nfZbhxwGSBwIX+oDwz6dKiKLhna2yHxyLWVQ8YiAq7PkNemsXNY8N7pFTFYyjNkIqgCqs53Q7zAYRIQw6Sp01FShh3VLmrTel8IOD/rGUGnadqpyBy5SZd71mR21vKZHjG8hYpBuEduTTYzgmeidK2M1YLm0ZsC5nJa89PSlZs2rvEkesN3aIwacWm8L/L71hCP62zgtRqV5YvWA0Adj2WFLeNjl951ZabL2wa+Vsysg/zZ6rPsbfxrSgAF9MfSHNURSk+N2kee2ck/nyWBpi9NbQpzP+Vqb+1/jAUR//bmKUWcwo7Oz0RHIOn7J4415leelR27jM5QWxgkDRjkWoosvNmDnLKNZU8uihR0m55JqugFyC83bmYB7joEUPTLwogto5dckWP/FV2zqxgGX3djmW7q9d6C9XcfQ"
-      }
-    }
-  ],
   "packageRules": [
     {
       "matchPackagePatterns": [ "*" ],
