@@ -11,7 +11,7 @@
     "workarounds:all"
   ],
   "configMigration": true,
-  "rangeStrategy": "auto",
+  "rangeStrategy": "update-lockfile",
   "lockFileMaintenance": { "enabled": true },
   "prBodyTemplate": "{{{table}}}{{{warnings}}}{{{notes}}}{{{changelogs}}}{{{controls}}}{{{footer}}}",
   "prBodyColumns": [ "Package", "Update", "Type", "Change" ],
