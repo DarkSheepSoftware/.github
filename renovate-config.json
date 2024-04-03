@@ -5,6 +5,7 @@
     ":ignoreModulesAndTests",
     ":ignoreUnstable",
     ":separateMultipleMajorReleases",
+    ":pinDependencies",
     "group:monorepos",
     "group:recommended",
     "replacements:all",
