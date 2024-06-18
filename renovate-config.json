@@ -35,6 +35,10 @@
       "semanticCommitScope": "dev"
     },
     {
+      "matchDepTypes": [ "dependencies", "devDependencies" ],
+      "semanticCommitScope": "dev,pkg"
+    },
+    {
       "matchDepTypes": [ "peerDependencies" ],
       "semanticCommitScope": "peer"
     }
