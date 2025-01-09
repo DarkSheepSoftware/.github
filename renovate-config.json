@@ -39,11 +39,16 @@
       "semanticCommitScope": "peer"
     },
     {
-      "extends": [ "monorepo:expo" ],
-      "groupName": "expo",
-      "matchUpdateTypes": [ "*" ]
+      "description": "Disable all expo automatice updates",
+      "matchPackageNames": [
+        "expo",
+        "expo-*",
+        "react",
+        "react-native",
+        "react-native-*",
+        "@types/react"
+      ],
+      "enabled": false
     }
-  ]
-}
   ]
 }
