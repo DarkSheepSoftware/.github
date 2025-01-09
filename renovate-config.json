@@ -37,6 +37,13 @@
     {
       "matchDepTypes": [ "peerDependencies" ],
       "semanticCommitScope": "peer"
+    },
+    {
+      "extends": [ "monorepo:expo" ],
+      "groupName": "expo",
+      "matchUpdateTypes": [ "*" ]
     }
+  ]
+}
   ]
 }
