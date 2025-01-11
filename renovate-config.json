@@ -46,6 +46,7 @@
         "react",
         "react-native",
         "react-native-*",
+        "@react-navigation/*",
         "@types/react"
       ],
       "enabled": false
