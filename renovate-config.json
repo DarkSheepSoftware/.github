@@ -43,6 +43,7 @@
       "matchPackageNames": [
         "expo",
         "expo-*",
+        "gradle",
         "react",
         "react-*",
         "react-native",
