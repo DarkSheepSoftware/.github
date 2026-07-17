@@ -13,6 +13,7 @@
   ],
   "configMigration": true,
   "rangeStrategy": "update-lockfile",
+  "minimumReleaseAge": "3 days",
   "lockFileMaintenance": {
     "enabled": true,
     "semanticCommitType": "deps",
