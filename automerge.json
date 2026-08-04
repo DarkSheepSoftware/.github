@@ -11,7 +11,7 @@
     },
     {
       "matchManagers": [ "dockerfile", "docker-compose" ],
-      "matchUpdateTypes": [ "pin" ],
+      "matchUpdateTypes": [ "pin", "pinDigest" ],
       "automerge": true
     },
     {
