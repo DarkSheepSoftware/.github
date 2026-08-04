@@ -3,13 +3,10 @@
   "extends": [
     "local>DarkSheepSoftware/.github:renovate-config"
   ],
-  "lockFileMaintenance": {
-    "automerge": true
-  },
   "packageRules": [
     {
       "matchManagers": [ "npm" ],
-      "matchUpdateTypes": [ "pin", "minor", "patch" ],
+      "matchUpdateTypes": [ "pin", "minor", "patch", "lockFileMaintenance" ],
       "automerge": true
     },
     {
