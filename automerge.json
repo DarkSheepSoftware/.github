@@ -10,6 +10,11 @@
       "automerge": true
     },
     {
+      "matchManagers": [ "dockerfile", "docker-compose" ],
+      "matchUpdateTypes": [ "pin" ],
+      "automerge": true
+    },
+    {
       "matchManagers": [ "github-actions" ],
       "automerge": true
     }
